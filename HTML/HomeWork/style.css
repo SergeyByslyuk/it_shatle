@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+}
+p {
+    text-align: left;
+}
+img {
+    margin-right: 50px;
+
+}
+.box {
+    display: block;
+}
