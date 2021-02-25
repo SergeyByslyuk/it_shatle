@@ -1,13 +1,29 @@
 body {
-    text-align: center;
+    height: 100%;
 }
-p {
-    text-align: left;
+h1 {
+      text-align: center;
 }
-img {
-    margin-right: 50px;
 
+p {
+    margin-left: 40px;
 }
-.box {
-    display: block;
+
+img {
+    /*display: inline;*/
+}
+div {
+    display: flex
+}
+.button-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/empty.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 710px;
+    width: 100%;
+
 }
