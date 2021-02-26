@@ -1,5 +1,8 @@
 body {
     height: 100%;
+    font-family: 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
 }
 h1 {
       text-align: center;
@@ -10,7 +13,7 @@ p {
 }
 
 img {
-    /*display: inline;*/
+    min-width: 189px;
 }
 div {
     display: flex
@@ -26,4 +29,31 @@ div {
     height: 710px;
     width: 100%;
 
+}
+button {
+    height:50px;
+    width:150px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 4px;
+    border: none;
+    background-color: #7237e2;
+    color: white;
+    box-shadow: 0 5px 15px #193047;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-size: 18px;
+}
+button:hover {
+    background: #fff;
+    box-shadow: 0 2px 10px 5px #7237e2;
+    color: #000;
+}
+button:focus { outline:0; }
+
+button:active {
+    box-shadow: 0 5px 15px #193047;
+    transform: scale(.98);
+    font-size: 18px;
 }
