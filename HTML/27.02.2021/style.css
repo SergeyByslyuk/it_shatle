@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+}
+h1 {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+
+}
+.footer {
+    margin-top: 70px;
+    
+}

@@ -1,3 +1,44 @@
 .description {
-    color:blue
+    color:blue;
 }
+button {
+    border-radius: 3px;
+    width: 150px;
+    height: 30px;
+}
+.main {
+    height: 100px;
+
+    background-color: burlywood ;
+}
+.contacts {
+    height: 150px;
+    margin-top: 50px;
+    padding-top: 30px;
+    background-color: forestgreen ;
+}
+
+.box {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+.box_1 {
+    background-color: red;
+    position: absolute;
+    top: 40px;
+    right: 20px;
+}
+.box_2 {
+    background-color: sandybrown;
+    position: absolute;
+    bottom: 20px;
+    right: 25px;
+}
+.box_3 {
+    background-color: blueviolet;
+    position: absolute;
+    bottom: 100px;
+    left: 80px;
+}
+
