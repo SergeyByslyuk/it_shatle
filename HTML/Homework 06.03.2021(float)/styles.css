@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+}
+.welcome-box {
+    height: 700px;
+    width: 100%;
+    background: #EEEFF1;
+}
+.logo {
+    margin-top: 97px;
+    margin-left: 402px;
+    text-align: center;
+}

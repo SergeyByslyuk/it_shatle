@@ -20,10 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="552ff8f4-0096-4165-a284-2ff7d1508e6f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HTML/HomeWork/img/empty.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/HomeWork/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/HomeWork/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/HomeWork/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/HomeWork/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/Homework 06.03.2021(float)/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Homework 06.03.2021(float)/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/Homework 06.03.2021(float)/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Homework 06.03.2021(float)/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +73,8 @@
       <workItem from="1614141323236" duration="3583000" />
       <workItem from="1614195239174" duration="4470000" />
       <workItem from="1614262686254" duration="6830000" />
+      <workItem from="1614571667737" duration="536000" />
+      <workItem from="1614825141560" duration="2828000" />
     </task>
     <servers />
   </component>
