@@ -20,14 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="552ff8f4-0096-4165-a284-2ff7d1508e6f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HTML/27.02.2021/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/27.02.2021/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/HomeWork/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/HomeWork/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/HomeWork/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/HomeWork/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/styles/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/Homework 06.03.2021(float)/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Homework 06.03.2021(float)/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/Homework 06.03.2021(float)/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Homework 06.03.2021(float)/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +60,19 @@
       <recent name="C:\Users\User\WebstormProjects\it_shatle\HTML\styles" />
     </key>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -93,12 +100,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="623" y="205" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1614267465727">
