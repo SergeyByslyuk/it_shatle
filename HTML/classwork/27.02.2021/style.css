@@ -1,0 +1,27 @@
+body {
+
+}
+h1 {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+
+}
+#footer {
+    margin-top: 70px;
+    
+}
+.left-picture {
+    float: left;
+    /* clear: left */
+
+}
+p {
+    background-color: burlywood;
+}
+.hero {
+    background: #D2B48C;
+    border: 1px solid red;
+    float: left;
+
+}
