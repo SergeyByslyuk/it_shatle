@@ -5,9 +5,24 @@ body {
     height: 700px;
     width: 100%;
     background: #EEEFF1;
+    padding-top: 57px;
+    padding-left: 402px;
 }
 .logo {
-    margin-top: 97px;
-    margin-left: 402px;
-    text-align: center;
+    margin: 0;
+    font-family: Revalia, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0em;
+    color: #34547A;
 }
+ul > li {
+    display: inline-block;
+    /* You can also add some margins here to make it look prettier */
+    zoom:1;
+    *display:inline;
+    /* this fix is needed for IE7- */
+}
+
