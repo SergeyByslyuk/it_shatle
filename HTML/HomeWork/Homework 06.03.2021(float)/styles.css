@@ -46,6 +46,10 @@ ul > li {
 }
 a {
     text-decoration: none;
+    /* color: #34547A!important; */
+    color: black;
+}
+a:hover {
     color: #34547A!important;
 }
 ul {
@@ -57,5 +61,18 @@ ul {
 nav {
     position: absolute;
     top: 89px
+}
+.welcome-info {
+    float: right;
+}
+h2 {
+    font-family: Roboto;
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: 79px;
+letter-spacing: 0em;
+text-align: left;
+
 }
 
