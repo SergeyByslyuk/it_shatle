@@ -1,0 +1,13 @@
+.box-1, 
+.box-2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+}
+ul > li {
+    background-color: cornflowerblue;
+}
+.test + li {
+    background-color: cyan;
+}
