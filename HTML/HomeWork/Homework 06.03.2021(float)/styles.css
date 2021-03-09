@@ -1,9 +1,17 @@
 body {
     margin: 0;
+
 }
-header {
+.section-size {
+    padding-left: 405px;
+    padding-right: 405px;
+}
+.welcome-box {
+    background: #EEEFF1;
+    height: 700px;
+}
+/*header {
     padding-top: 50px;
-    /*padding-left: 402px;*/
 }
 .welcome-box {
     height: 700px;
@@ -33,7 +41,7 @@ header {
 }
 ul > li {
     display: inline-block;
-    /* You can also add some margins here to make it look prettier */
+    !* You can also add some margins here to make it look prettier *!
     zoom:1;
     font-family: Roboto, sans-serif;
     font-size: 16px;
@@ -46,7 +54,7 @@ ul > li {
 }
 a {
     text-decoration: none;
-    /* color: #34547A!important; */
+    !* color: #34547A!important; *!
     color: black;
 }
 a:hover {
@@ -74,5 +82,5 @@ line-height: 79px;
 letter-spacing: 0em;
 text-align: left;
 
-}
+}*/
 
