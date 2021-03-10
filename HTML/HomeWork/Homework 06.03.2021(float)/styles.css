@@ -2,6 +2,10 @@ body {
     margin: 0;
 
 }
+header {
+    background: #EEEFF1;
+    padding-top: 57px;
+}
 .section-size {
     padding-left: 405px;
     padding-right: 405px;
@@ -10,9 +14,59 @@ body {
     background: #EEEFF1;
     height: 700px;
 }
-/*header {
-    padding-top: 50px;
+.logo {
+    margin: 0;
+    font-family: Revalia, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0em;
+    color: #34547A;
+    display: inline-block;
 }
+ul > li {
+    display: inline-block;
+    /*!* You can also add some margins here to make it look prettier *!*/
+    zoom:1;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    padding-left: 30px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: #34547A!important;
+}
+ul {
+    display: inline;
+    float: right;
+    padding-left: 0px;
+}
+img {
+    padding-left: 85px;
+    padding-top: 180px;
+}
+.welcome-info {
+    float: right;
+    padding-top: 100px;
+}
+h2 {
+    font-family: Roboto, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 79px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+/*
 .welcome-box {
     height: 700px;
     width: 100%;
@@ -35,9 +89,7 @@ body {
     letter-spacing: 0em;
     color: #34547A;
     float: left;
-
     padding-left: 402px;
-
 }
 ul > li {
     display: inline-block;
@@ -50,11 +102,9 @@ ul > li {
     line-height: 26px;
     letter-spacing: 0.1em;
     padding-right: 30px;
-
 }
 a {
     text-decoration: none;
-    !* color: #34547A!important; *!
     color: black;
 }
 a:hover {
