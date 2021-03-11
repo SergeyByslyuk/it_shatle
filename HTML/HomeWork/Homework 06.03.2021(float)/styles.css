@@ -70,10 +70,10 @@ ul {
 
 }
 
-h2 {
+h1 {
     font-size: 48px;
     font-style: normal;
-    font-weight: 550;
+    font-weight: 600;
     line-height: 79px;
     letter-spacing: 0em;
     text-align: left;
@@ -112,14 +112,16 @@ h2 {
 
 section.about-me-box {
     height: 267px;
-    text-align: center;
     padding-top: 119px;
+    width: 540px;
+    text-align: center;
+    padding-left: 690px;
 }
 
-h2.about-me-title {
+h2 {
     margin: 0;
     font-style: normal;
-    font-weight: 550;
+    font-weight: 600;
     font-size: 32px;
     line-height: 37px;
     text-align: center;
@@ -128,5 +130,64 @@ h2.about-me-title {
 p.about-me-text {
     margin-top: 50px;
     color: #727272;
+
+}
+section.jobs-box {
+    height: 250px;
+    background-color: #34547A;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+img.jobs-img {
+    height: 50px;
+    width: 50px;
+}
+div.jobs-text {
+    float: right;
+    color: white;
+    padding-right: 15px;
+}
+.job-item {
+    width: 141px;
+    height: 50px;
+    float: left;
+    margin-right: 49px;
+
+}
+.jobs-count {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.jobs-name {
+    margin-top: 5px;
+}
+.job-item:last-child {
+    margin-right: 0;
+}
+section.skills-box {
+    height: 653px;
+    padding-top: 102px;
+    padding-bottom: 102px;
+    box-sizing: border-box;
+}
+h2.skills-header {
+    margin-top: 102px;
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: left;
+}
+p.skill-progress {
+    width: 445px;
+    height: 4px;
+    background-color: #C4C4C4 ;
+}
+p.skill-progress-active {
+    width: 350px;
+    height: 4px;
+    margin-top: -20px;
+    background-color: #34547A;
 }
 
