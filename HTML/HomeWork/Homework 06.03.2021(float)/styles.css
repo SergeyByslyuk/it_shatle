@@ -2,18 +2,22 @@ body {
     margin: 0;
     font-family: Roboto, sans-serif;
 }
+
 header {
     background: #EEEFF1;
     padding-top: 57px;
 }
+
 .section-size {
     padding-left: 405px;
     padding-right: 405px;
 }
+
 .welcome-box {
     background: #EEEFF1;
     height: 700px;
 }
+
 .logo {
     margin: 0;
     font-family: Revalia, sans-serif;
@@ -25,10 +29,11 @@ header {
     color: #34547A;
     display: inline-block;
 }
+
 ul > li {
     display: inline-block;
     /*!* You can also add some margins here to make it look prettier *!*/
-    zoom:1;
+    zoom: 1;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -36,41 +41,50 @@ ul > li {
     letter-spacing: 0.1em;
     padding-left: 42px;
 }
+
 a {
     text-decoration: none;
     color: black;
 }
+
 a:hover {
-    color: #34547A!important;
+    color: #34547A !important;
 }
+
 ul {
     display: inline;
     float: right;
 
 }
+
 .comp-img {
     padding-left: 85px;
     padding-top: 180px;
+    float: left;
 }
+
 .welcome-info {
     float: right;
     padding-top: 100px;
     padding-left: 80px;
 
 }
+
 h2 {
     font-size: 48px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 550;
     line-height: 79px;
     letter-spacing: 0em;
     text-align: left;
 
 }
+
 .common-info {
     width: 500px;
     color: #727272;
 }
+
 .write-me {
     width: 225px;
     height: 65px;
@@ -84,79 +98,35 @@ h2 {
     letter-spacing: 0.1em;
     text-align: center;
     margin-top: 40px;
-}
-.clearfix:after {
-    content: ".";
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden;
-}
-/*
-.welcome-box {
-    height: 700px;
-    width: 100%;
-    background: #EEEFF1;
-}
-.clearfix:after {
-    content: ".";
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden;
-}
-.logo {
-    margin: 0;
-    font-family: Revalia, sans-serif;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 60px;
-    letter-spacing: 0em;
-    color: #34547A;
-    float: left;
-    padding-left: 402px;
-}
-ul > li {
-    display: inline-block;
-    !* You can also add some margins here to make it look prettier *!
-    zoom:1;
-    font-family: Roboto, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 26px;
-    letter-spacing: 0.1em;
-    padding-right: 30px;
-}
-a {
-    text-decoration: none;
-    color: black;
-}
-a:hover {
-    color: #34547A!important;
-}
-ul {
-    display: inline;
-    float: right;
-    width: 50%;
-    padding-left: 0px;
-}
-nav {
-    position: absolute;
-    top: 89px
-}
-.welcome-info {
-    float: right;
-}
-h2 {
-    font-family: Roboto;
-font-size: 48px;
-font-style: normal;
-font-weight: 500;
-line-height: 79px;
-letter-spacing: 0em;
-text-align: left;
 
-}*/
+    border: none;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+section.about-me-box {
+    height: 267px;
+    text-align: center;
+    padding-top: 119px;
+}
+
+h2.about-me-title {
+    margin: 0;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+}
+
+p.about-me-text {
+    margin-top: 50px;
+    color: #727272;
+}
 
