@@ -190,4 +190,28 @@ p.skill-progress-active {
     margin-top: -20px;
     background-color: #34547A;
 }
-
+.skill-list {
+    width: 538px;
+    float: left;
+}
+img.photo-img {
+    float: right;
+    width: 555px;
+    height: 450px;
+}
+section.workflow-box {
+    box-sizing: border-box;
+    height: 1004px;
+    background-color: #EEEFF1;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.workflow-header {
+    margin-bottom: 50px;
+}
+.workflow-text {
+    width: 540px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 57px;
+}
