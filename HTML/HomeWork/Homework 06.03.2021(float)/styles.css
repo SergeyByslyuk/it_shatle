@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Roboto, sans-serif;
+    font-family: Ranchers, sans-serif;
 }
 
 header {
@@ -329,6 +329,10 @@ footer {
     height: 44px;
     margin-right: 15px;
     color: white;
+}
+@font-face {
+    font-family: "Ranchers";
+    src: url(fonts/Ranchers-Regular.ttf);
 }
 
 /*section.workflow-company-box:last-of-type{
