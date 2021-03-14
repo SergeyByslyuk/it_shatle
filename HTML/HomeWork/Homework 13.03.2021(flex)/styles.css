@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+.main {
+    background-image: url("img/main.png");
+    height: 900px;
+}
+.main__header {
+    padding: 40px 20% 0px 50%;
+    border-bottom: 1px solid rgba(161, 161, 161, .5);
+}
+.main__navigation {
+    display: flex;
+    justify-content: space-between
+}
+.main__link {
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 22px;
+}
+.main__link:hover, .main__link:focus {
+    border-bottom: 2px solid white;
+    padding-bottom: 20px;
+
+}
