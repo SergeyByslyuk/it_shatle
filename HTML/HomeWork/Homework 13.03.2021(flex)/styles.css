@@ -27,3 +27,26 @@ body {
     padding-bottom: 20px;
 
 }
+.main__content {
+    display: flex;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+}
+.main__description {
+    width: 830px;
+    height: 190px;
+
+}
+.text {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+}
+.main__text {
+    color: white;
+    text-align: center;
+}
+.main__description__button {
+    display: block;
+    margin: 0 auto;
+}
