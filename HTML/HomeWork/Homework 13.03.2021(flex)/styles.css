@@ -85,5 +85,46 @@ body {
 .services-block__h2 {
     font-size: 36px;
     line-height: 53px;
-    margin: 0 30% 50px;
+    margin-top: 0;
+    margin-bottom: 50px;
+
+}
+.services-block__description {
+    margin: 0 30% 70px;
+}
+.services-block__small {
+    color: gray;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    font-weight: 400;
+}
+.services-block__list {
+    margin: 0 20% 55px;
+    display: flex;
+    justify-content: space-between;
+}
+.services-block__icon-container-level_1 {
+    border: 1px solid #E0E0E0;
+    border-radius: 50%;
+    height: 110px;
+    width: 110px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-right: 17px;
+}
+.services-block__icon-container-level_2 {
+    border: 1px solid #4985FF;
+    border-radius: 50%;
+    height: 98%;
+    width: 98%;
+    display: flex;
+    justify-content: center; /*Центрирование по горизонтали*/
+    align-items: center;
+}
+.services-block__icon {
+    display: block;
+}
+.services-block__item-description {
+    width: 226px;
 }
