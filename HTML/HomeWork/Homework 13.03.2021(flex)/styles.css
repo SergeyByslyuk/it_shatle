@@ -197,6 +197,7 @@ a {
 
 }
 .specialization-block_bg-violet {
+    box-sizing: border-box;
     background-color: #7237e2;
     height: 50%;
     padding: 6% 20% 0 20%;
@@ -204,4 +205,59 @@ a {
 .specialization-block__header {
     display: flex;
     justify-content: space-between;
+}
+.text__specialization-block__h2 {
+    text-align: left;
+    color: white;
+    width: 500px;
+}
+.projects-block__button {
+    margin: 25px 0 0 0 ;
+}
+.specialization-block_bg-white {
+    box-sizing: border-box;
+    padding: 0% 20% 0 20%;
+    margin-top: -8%;
+}
+
+.specialization-block__list {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #E0E0E0;
+    height: 530px;
+}
+.specialization-block__img {
+
+}
+.specialization-block__span {
+    color: #4985FF;
+}
+.specialization-block__h3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: left;
+}
+.specialization-block__item {
+    width: 350px;
+}
+.specialization-block__p {
+    text-align: left;
+}
+.our-projects-block {
+    box-sizing: border-box;
+    padding: 6% 20% 6% 20%;
+    background-color: #F6F6F8;
+}
+.our-projects-block__list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.our-projects-block__h2 {
+    text-align: center;
+}
+.our-projects-block__item {
+
 }
