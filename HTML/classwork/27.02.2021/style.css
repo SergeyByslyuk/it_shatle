@@ -25,22 +25,21 @@ p {
 
 } */
 .box {
-    margin: 0 40px 2em 0;
-    background: rgba(228, 225, 228, .5);
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5%;
+    border-bottom: 1px solid #E0E0E0;
+    margin-bottom: 5%;
 }
-div {
-    width: 170px;
-    height: 100px;
-    line-height: 100px;
-    margin: 0 auto;
-    /* -o-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out; */
-    transition: all 0.5s ease-in-out;
+  .icon {
+/*      height: auto;
+      width: 700px;
+      max-width: 100%;
+      display: block;*/
+      height: auto;
+      width: 100%;
+
   }
-  .one {
-    background-color: orangered;
-  }
-  .one:hover {
-    transform: rotate(90deg) scale(-1) skewX(-20deg)
-  }
+.icon-container {
+    width: 50%;
+}

@@ -6,17 +6,18 @@
     <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-<section class="main wrapper-size">
+<section class="main">
     <header class="main__header">
-        <nav class="main__navigation">
-            <a href="#" class="main__link">Главная</a>
-            <a href="#" class="main__link">Наши проекты</a>
-            <a href="#" class="main__link">Услуги</a>
-            <a href="#" class="main__link">Новости</a>
-            <a href="#" class="main__link">Контакты</a>
-        </nav>
+        <ul class="main__navigation">
+            <li class="main__li"><a href="#" class="main__a">Главная</a></li>
+            <li class="main__li"><a href="#" class="main__a">Наши проекты</a></li>
+            <li class="main__li"><a href="#" class="main__a">Услуги</a></li>
+            <li class="main__li"><a href="#" class="main__a">Новости</a></li>
+            <li class="main__li"><a href="#" class="main__a">Контакты</a></li>
+        </ul>
     </header>
-    <div class="main__content">
+    <p class="main__separator"></p>
+    <div class="main__content wrapper-size">
         <div class="main__description">
             <h4 class="text  main__h4">Передовая IT студия</h4>
             <h1 class="text  main__h1">Мы создаем легкие решения сложных задач и проблем</h1>
@@ -24,7 +25,7 @@
         </div>
     </div>
 </section>
-<section class="services-block">
+<section class="services-block wrapper-size">
     <div class="services-block__description">
         <h2 class="text">Мы создаем мобильные приложения для крупных корпораций</h2>
         <p class="text text-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -72,7 +73,7 @@
     </div>
     <button class="button">Все услуги</button>
 </section>
-<section class="projects-block">
+<section class="projects-block wrapper-size">
     <div class="projects-block__container">
         <div class="projects-block__container-description">
             <h2 class="text text_align_left">Высокие стандарты разработки</h2>
@@ -82,7 +83,9 @@
                 voluptatum.</p>
             <a href="#">Подробнее о компании</a>
         </div>
-        <div class="projects-block__icon"></div>
+        <div class="projects-block__icon">
+            <img  class="projects-block__icon-img" src="img/project-container-icon.png"/>
+        </div>
     </div>
     <div class="projects-block__list">
         <div class="projects-block__item">
@@ -91,7 +94,8 @@
             <p class="text text-p text_align_left">Our projects</p>
         </div>
         <div class="projects-block__item">
-            <div><img src="img/project-icon.png" class="projects-block__item-icon" height="30" width="30"/>
+            <div>
+                <img src="img/project-icon.png" class="projects-block__item-icon" height="30" width="30"/>
                 <h3 class="projects-block__item-h3">125</h3></div>
             <p class="text text-p text_align_left">Our projects</p>
         </div>
@@ -113,13 +117,13 @@
     </div>
 </section>
 <section class="specialization-block">
-    <div class="specialization-block_bg-violet">
+    <div class="specialization-block_bg-violet wrapper-size">
         <div class="specialization-block__header">
             <h2 class="text text__specialization-block__h2">Наши работы на которых мы специализируемся</h2>
             <button class="button projects-block__button">Все услуги</button>
         </div>
     </div>
-    <div class="specialization-block_bg-white">
+    <div class="specialization-block_bg-white wrapper-size">
         <div class="specialization-block__list">
             <div class="specialization-block__item">
                 <img src="img/spec-icon.png" class="specialization-block__img">

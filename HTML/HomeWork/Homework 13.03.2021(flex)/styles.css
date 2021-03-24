@@ -6,46 +6,59 @@ body {
 .main {
     background-image: url("img/main.png");
     height: 900px;
-}
-.wrapper-size {
-    padding-left: 20%;
-    padding-right: 20%;
-}
-.main__header {
-
     border-bottom: 1px solid rgba(161, 161, 161, .5);
 }
-
+.main__separator {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(161, 161, 161, .5);
+    margin: 0;
+}
+.wrapper-size {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.main__header {
+    height: 100px;
+    padding-top: 50px;
+    padding-left: 50%;
+    padding-right: 15%;
+    box-sizing: border-box;
+}
 .main__navigation {
+    padding-left: 0;
+    margin: 0 auto;
+    height: 100%;
     display: flex;
     justify-content: space-between
 }
 
-.main__link {
+.main__a{
+    display: block;
     text-decoration: none;
     color: white;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-bottom: 22px;
+}
+ul > li {
+    display: inline-block;
+    /*!* You can also add some margins here to make it look prettier *!*/
 }
 
-.main__link:hover, .main__link:focus {
+.main__li:hover, .main__li:focus {
+    display: block;
     border-bottom: 2px solid white;
-    padding-bottom: 20px;
+
 
 }
 
 .main__content {
+    padding-top: 15%;
     display: flex;
-    height: 80%;
     justify-content: center;
     align-items: center;
 }
 
 .main__description {
     width: 830px;
-    height: 250px;
-
 }
 
 .text {
@@ -104,11 +117,9 @@ body {
 }
 
 .services-block {
-    height: 800px;
     background-color: white;
-    padding-top: 110px;
-    padding-bottom: 110px;
-    box-sizing: border-box;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 h2 {
@@ -131,9 +142,9 @@ h2 {
 }
 
 .services-block__list {
-    margin: 0 20% 55px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 5%;
 }
 
 .services-block__icon-container-level_1 {
@@ -175,10 +186,9 @@ h2 {
 }
 
 .projects-block {
-    box-sizing: border-box;
+    padding-top: 5%;
+    padding-bottom: 3%;
     background-color: #F6F6F8;
-    height: 820px;
-    padding: 6% 20% 4% 20%;
 }
 
 .text_align_left {
@@ -198,13 +208,17 @@ a {
 }
 
 .projects-block__icon {
-    background-image: url("img/project-container-icon.png");
-    width: 520px;
-    height: 420px;
+
+    width: 50%;
+}
+.projects-block__icon-img {
+    height: auto;
+    width: 100%;
 }
 
 .projects-block__container-description {
-    width: 500px;
+    width: 50%;
+    margin-right: 10%;
 }
 
 .projects-block__list {
@@ -213,7 +227,6 @@ a {
 }
 
 .projects-block__item {
-
 }
 
 .projects-block__item-icon {
@@ -239,7 +252,7 @@ a {
     box-sizing: border-box;
     background-color: #7237e2;
     height: 50%;
-    padding: 6% 20% 0 20%;
+    padding-top: 5%;
 }
 
 .specialization-block__header {
@@ -258,8 +271,7 @@ a {
 }
 
 .specialization-block_bg-white {
-    box-sizing: border-box;
-    padding: 0% 20% 0 20%;
+    /*box-sizing: border-box;*/
     margin-top: -8%;
 }
 
@@ -268,6 +280,7 @@ a {
     justify-content: space-between;
     border-bottom: 1px solid #E0E0E0;
     height: 530px;
+    width: 100%;
 }
 
 .specialization-block__img {
@@ -286,7 +299,7 @@ a {
 }
 
 .specialization-block__item {
-    width: 350px;
+
 }
 
 .specialization-block__p {
