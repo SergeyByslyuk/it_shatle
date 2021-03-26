@@ -1,24 +1,31 @@
 body {
     margin: 0;
+    height: 100%;
     font-family: Roboto, sans-serif;
     font-style: normal;
     letter-spacing: 0.2px;
 }
+
 img {
     height: auto;
     width: 100%;
+
+    /*border-radius: 2% 2%;*/
 }
+
 ul > li {
     display: inline-block;
 }
+
 .main {
     padding-top: 40px;
-    height: 100vh;
+    height: 120vh;
     background-image: url(img/main-bg-gradient.png), url(img/main-bg-gradient-dark.png);
     background-position: left top, left top;
     background-repeat: no-repeat, no-repeat;
-    background-size: 100%, 100%;
+    background-size: 100%, 110%;
 }
+
 .main__header {
     display: flex;
     justify-content: space-between;
@@ -26,12 +33,15 @@ ul > li {
     padding-right: 4%;
     margin-bottom: 12%;
 }
+
+
 .main__link {
     text-decoration: none;
     color: white;
     font-size: 15px;
     line-height: 27px;
 }
+
 .main__nav {
     display: inline-flex;
     justify-content: space-between;
@@ -39,14 +49,21 @@ ul > li {
     margin-left: 0;
     padding-left: 0;
 }
+
 .main__nav-item {
 }
+
 .main__header-form {
     width: 66%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
+.main__header-form .main__icon {
+    display: none;
+}
+
 .form-control {
     border-radius: 39px;
     border: 1px solid #E8E8E8;
@@ -57,11 +74,13 @@ ul > li {
     letter-spacing: 0.1px;
     color: black;
 }
+
 .form-control:focus {
     outline: none;
     border-color: #80bdff;
     box-shadow: 0 0 0 0.2rem rgb(0 123 255);
 }
+
 .main__form-control {
     width: 25%;
     min-width: 130px;
@@ -76,42 +95,64 @@ ul > li {
     border: 1px solid #E8E8E8;
     height: 55px;
 }
+
 .btn:focus, .btn:hover {
     outline: none;
-    border-color: #80bdff;
-    box-shadow: 0 0 0 0.2rem rgb(181 47 56);
+    box-shadow: 0 0 0 0.2rem #6d7a8f;
 }
+
 .main__btn {
     color: #EF2779;
     width: 14%;
-    min-width: 85px;
+    min-width: 95px;
     display: block;
+}
+.main__content-form-header-mobile {
+    display: none;
+    font-size: 55px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 50px;
 }
 .main__content {
     display: flex;
+    flex-wrap: wrap-reverse;
     width: 100%;
     justify-content: space-between;
     margin-right: 50px;
 }
-.main__content-icon {
+
+.main__content-icon-container {
     width: 50%;
 }
+.main__browser-mobile {
+    display: none;
+}
+.main__content-icon {
+    border-bottom-right-radius: 2% 2%;
+    border-top-right-radius: 2% 2%;
+    content: url("img/browser.png")
+}
+
 .main__content-form {
     margin-right: 15%;
     width: 330px;
 }
+
 .main__content-form-header {
     font-size: 55px;
     color: white;
     margin-top: 0;
     margin-bottom: 50px;
 }
+
 .main__content-form-description {
     color: white;
     margin-top: 0;
     margin-bottom: 80px;
     font-weight: bold;
 }
+
 .main__content-form-btn {
     height: 60px;
     color: #38A3F1;
@@ -119,8 +160,70 @@ ul > li {
     font-size: 22px;
     background-color: white;
 }
-@media (min-width: 768px) {
-    .container {
-        width: 750px;
+
+@media (max-width: 1024px) {
+    .main {
+        background-size: auto auto;
+    }
+    .main__header-form {
+        width: 75%;
+    }
+
+    .main__content-form {
+        margin-right: 3%;
+    }
+
+
+}
+
+@media (max-width: 925px) {
+    .main__header-form {
+        justify-content: flex-end;
+    }
+
+    .main__header-form > *:not(:last-child) {
+        display: none;
+    }
+
+    .main__header-form .main__icon {
+        display: block;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 768px) {
+    .main__content-icon-container {
+        width: 0;
+    }
+    .main__content-form-header {
+        display: none;
+    }
+    .main__content-form-header-mobile {
+        display: block;
+    }
+    .main__content {
+        justify-content: center;
+    }
+
+    .main__content-icon {
+        display: none;
+    }
+
+    .main__content-form-btn {
+        background-color: #38A3F1;
+        color: white;
+    }
+    .main__browser-mobile {
+        display: block;
+        margin-bottom: 50px;
+    }
+    .main__content-form {
+        text-align: center;
+        width: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .main__content-form-description {
+        margin-bottom: 50px;
     }
 }
